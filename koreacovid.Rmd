@@ -64,13 +64,18 @@ basicCC <- ggplot(dd2,aes(x=result,y=prcnt*100,fill=Sex))
 basicCC + geom_bar(stat="identity", position = "dodge")
 ```
 
-From the data it can be seen that more men die from COVID-19 than women do. About 65% of men die where as 38% of females die. where around 55% or women live and around 42% of men live through COVID-19. 
-
-
+From the data it can be seen that more men die from COVID-19 than women do. About 65% of men die where as 38% of females die. Where around 55% or women live and around 42% of men live through COVID-19. 
 
   
 ## Numerical results
 
+```{r}
+table1 <- xtabs(~result + Sex, data=kRdata)
+rowPerc(table1)
+colPerc(table1)
+```
+
+The numerical data shows males are twice as likely to die than their female counter parts. Showing only 1.4% of females died where as 3% of males died.  
 
 ## Inferential results 
 
