@@ -91,3 +91,4 @@ The fisher test shows men are 2.3 times more likely to die than females in this 
 
 ## Conclusions
 
+This study was done to determine if sex has any association to the death rate of each due to COVID-19.The bar chart above shows about 65% of men die where as only 38% of females die from the virus. Where around 55% of women live and around 42% of men live through COVID-19. Numerical data shows that 1.4% of females die of COVID-19 compared to 3% of males making it twice as likely for a males to die from the virus. The fisher test gives a p-value of 0.0009 showing how slim the chances of such a result. The test also shows that men are 2.3 times more likely to die from the virus. Showing the hypothesis was correct sex does have a correlation to the death rate of COVID-19 patients.
